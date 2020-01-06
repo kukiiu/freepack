@@ -1,0 +1,20 @@
+{
+  "name": "freepack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kukiiu/freepack.git",
+  "author": "kukiiu <1071969365@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx tsc && node index.js",
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.4",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.7.7"
+  }
+}
